@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.34543f8c.css",
-    "main.js": "/static/js/main.4e116faa.js",
-    "static/js/787.92ad1e64.chunk.js": "/static/js/787.92ad1e64.chunk.js",
-    "static/media/road.png": "/static/media/road.60b9ca472b6788f180c5.png",
-    "static/media/mountain.png": "/static/media/mountain.0829473c494546eca2f7.png",
-    "static/media/bg.jpg": "/static/media/bg.d3cadcf326191a5d274e.jpg",
-    "static/media/moon.png": "/static/media/moon.22aa4ef00663e15041ec.png",
-    "index.html": "/index.html",
-    "main.34543f8c.css.map": "/static/css/main.34543f8c.css.map",
-    "main.4e116faa.js.map": "/static/js/main.4e116faa.js.map",
-    "787.92ad1e64.chunk.js.map": "/static/js/787.92ad1e64.chunk.js.map"
+    "main.css": "/efeitos-diversos-frontend/static/css/main.34543f8c.css",
+    "main.js": "/efeitos-diversos-frontend/static/js/main.66f0c251.js",
+    "static/js/787.92ad1e64.chunk.js": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js",
+    "static/media/road.png": "/efeitos-diversos-frontend/static/media/road.60b9ca472b6788f180c5.png",
+    "static/media/mountain.png": "/efeitos-diversos-frontend/static/media/mountain.0829473c494546eca2f7.png",
+    "static/media/bg.jpg": "/efeitos-diversos-frontend/static/media/bg.d3cadcf326191a5d274e.jpg",
+    "static/media/moon.png": "/efeitos-diversos-frontend/static/media/moon.22aa4ef00663e15041ec.png",
+    "index.html": "/efeitos-diversos-frontend/index.html",
+    "main.34543f8c.css.map": "/efeitos-diversos-frontend/static/css/main.34543f8c.css.map",
+    "main.66f0c251.js.map": "/efeitos-diversos-frontend/static/js/main.66f0c251.js.map",
+    "787.92ad1e64.chunk.js.map": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34543f8c.css",
-    "static/js/main.4e116faa.js"
+    "static/js/main.66f0c251.js"
   ]
 }
