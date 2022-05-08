@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body_wave{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 50vw;
+    background-color: #000;
+}
+.wave {
+    position: relative;
+}
+
+.waveFlip {
+    transform: scaleX(-1);
+    transform: scaleY(-1);
+}
+
+.wave span, .waveFlip span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;
+    animation: wave 2s ease-in-out infinite;
+    margin-right: 5px;
+}
+.waveFlip span {
+    background-image: linear-gradient(#00000000, #ffffff7c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.1;
+    color: transparent;
+}
+.wave .l_1, .waveFlip .l_1{
+    animation-delay: calc(0.1s * 1);
+}
+.wave .l_2, .waveFlip .l_2{
+    animation-delay: calc(0.1s * 2);
+}
+.wave .l_3, .waveFlip .l_3{
+    animation-delay: calc(0.1s * 3);
+}
+.wave .l_4, .waveFlip .l_4{
+    animation-delay: calc(0.1s * 4);
+}
+.wave .l_5, .waveFlip .l_5{
+    animation-delay: calc(0.1s * 5);
+}
+.wave .l_6, .waveFlip .l_6{
+    animation-delay: calc(0.1s * 6);
+}
+.wave .l_7, .waveFlip .l_7{
+    animation-delay: calc(0.1s * 7);
+}
+.wave .l_8, .waveFlip .l_8{
+    animation-delay: calc(0.1s * 8);
+}
+.wave .l_9, .waveFlip .l_9{
+    animation-delay: calc(0.1s * 9);
+}
+.wave .l_10, .waveFlip .l_10{
+    animation-delay: calc(0.1s * 10);
+}
+.wave .l_11, .waveFlip .l_11{
+    animation-delay: calc(0.1s * 11);
+}
+.wave .l_12, .waveFlip .l_12{
+    animation-delay: calc(0.1s * 12);
+}
+.wave .l_13, .waveFlip .l_13{
+    animation-delay: calc(0.1s * 13);
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-40px);
+    }
+    40%, 100% {
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body_home {
+    background: linear-gradient(#900101, #ffae00);
+    overflow-x: hidden;
+}
+
+.body_home .section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.body_home .section h2{
+    margin-bottom: 20px;
+}

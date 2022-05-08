@@ -21,7 +21,7 @@ function ParallaxBGScrolling(){
     })
 
     return(
-        <>
+        <main className={styles.body_parallax01}>
             <section className={styles.section01}>
                 <img src={bg} className={styles.bg} alt="" id="bg" />
                 <img src={moon} alt="" id="moon" />
@@ -37,7 +37,7 @@ function ParallaxBGScrolling(){
                     cumque laudantium?
                 </p>
             </section>
-        </>
+        </main>
     )
 }
 
