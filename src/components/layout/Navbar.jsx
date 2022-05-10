@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from '../CSS/Navbar.module.css'
 import { Link, useNavigate } from 'react-router-dom';
 
-function Navbar({nav}){
+function Navbar(){
     const [active, setActive] = useState('');
     const navigate = useNavigate()
 
