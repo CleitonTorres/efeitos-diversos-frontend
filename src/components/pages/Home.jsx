@@ -1,4 +1,5 @@
 import styles from '../CSS/Home.module.css';
+import Rain from '../layout/Rain';
 import TextWave from '../layout/TextWave';
 
 function Home(){
@@ -7,6 +8,7 @@ function Home(){
             <section className={styles.section}>
                 <h2>Efeitos frontend</h2>
                 <TextWave />
+                <Rain />
             </section>
             
         </main>

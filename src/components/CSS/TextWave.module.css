@@ -9,9 +9,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-height: 50vh;
-    min-width: 50vw;
+    height: 50vh;
+    width: 600px;
     background-color: #000;
+    margin-bottom: 30px;
 }
 .wave {
     position: relative;
@@ -87,5 +88,15 @@
     }
     40%, 100% {
         transform: translateY(0px);
+    }
+}
+
+@media (max-width:600px) {
+    .body_wave{
+        width: 400px;
+    }
+    .wave span, .waveFlip span {
+        font-size: 3em;
+        margin-right: 2px;
     }
 }

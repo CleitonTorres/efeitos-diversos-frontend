@@ -11,6 +11,7 @@
 .body_home {
     background: linear-gradient(#900101, #ffae00);
     overflow-x: hidden;
+    padding-top: 150px;
 }
 
 .body_home .section {
