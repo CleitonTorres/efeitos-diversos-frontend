@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body_emailValidation {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    width: 600px;
+    background-color: #000;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.body_emailValidation .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3 {
+    position: relative;
+    font-size: 1.8em;
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.body_emailValidation .form {
+    position: relative;
+    border: 2px solid #131313;
+    background-image: linear-gradient(#1e2024, #18181c);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.body_emailValidation .form .inputBox {
+    position: relative;
+}
+.body_emailValidation .form .inputBox .email {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    background-color: transparent;
+    border-color: navajowhite;
+    padding:  12px 15px;
+    padding-right: 50px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.body_emailValidation .form .inputBox .indicator {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.body_emailValidation .form.valid .indicator {
+    background-color: #0f0;
+    box-shadow: 0 0 5px #0f0,
+                0 0 5px #0f0,
+                0 0 5px #0f0,
+                0 0 5px #0f0;
+}
+
+.body_emailValidation .form.invalid .indicator {
+    background-color: #f00;
+    box-shadow: 0 0 5px #f00,
+                0 0 5px #f00,
+                0 0 5px #f00,
+                0 0 5px #f00;
+}
+@media (max-width:600px) {
+    .body_emailValidation{
+        width: 400px;
+    }
+    .body_emailValidation .form .inputBox .email {
+        width: 300px;
+        font-size: 1.1em;
+    }
+}

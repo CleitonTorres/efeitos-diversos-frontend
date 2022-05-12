@@ -1,4 +1,5 @@
 import styles from '../CSS/Home.module.css';
+import EmailValidation from '../layout/EmailValidation';
 import Rain from '../layout/Rain';
 import TextWave from '../layout/TextWave';
 
@@ -9,6 +10,7 @@ function Home(){
                 <h2>Efeitos frontend</h2>
                 <TextWave />
                 <Rain />
+                <EmailValidation />
             </section>
             
         </main>
