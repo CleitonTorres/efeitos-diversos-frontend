@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/efeitos-diversos-frontend/static/css/main.127b3150.css",
-    "main.js": "/efeitos-diversos-frontend/static/js/main.b285f4ed.js",
+    "main.css": "/efeitos-diversos-frontend/static/css/main.17760e04.css",
+    "main.js": "/efeitos-diversos-frontend/static/js/main.84dabe33.js",
     "static/js/787.92ad1e64.chunk.js": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js",
     "static/media/road.png": "/efeitos-diversos-frontend/static/media/road.60b9ca472b6788f180c5.png",
     "static/media/mountain.png": "/efeitos-diversos-frontend/static/media/mountain.0829473c494546eca2f7.png",
@@ -16,12 +16,12 @@
     "static/media/menuToggleClose.png": "/efeitos-diversos-frontend/static/media/menuToggleClose.e8984e6bf8a1068734d7.png",
     "static/media/menuToggle.jpg": "/efeitos-diversos-frontend/static/media/menuToggle.198575def06ecc6ff660.jpg",
     "index.html": "/efeitos-diversos-frontend/index.html",
-    "main.127b3150.css.map": "/efeitos-diversos-frontend/static/css/main.127b3150.css.map",
-    "main.b285f4ed.js.map": "/efeitos-diversos-frontend/static/js/main.b285f4ed.js.map",
+    "main.17760e04.css.map": "/efeitos-diversos-frontend/static/css/main.17760e04.css.map",
+    "main.84dabe33.js.map": "/efeitos-diversos-frontend/static/js/main.84dabe33.js.map",
     "787.92ad1e64.chunk.js.map": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.127b3150.css",
-    "static/js/main.b285f4ed.js"
+    "static/css/main.17760e04.css",
+    "static/js/main.84dabe33.js"
   ]
 }
