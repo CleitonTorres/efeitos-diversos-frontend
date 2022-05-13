@@ -1,5 +1,6 @@
 import styles from '../CSS/Home.module.css';
 import EmailValidation from '../layout/EmailValidation';
+import EyesLooking from '../layout/EyesLooking';
 import Rain from '../layout/Rain';
 import TextWave from '../layout/TextWave';
 
@@ -11,6 +12,7 @@ function Home(){
                 <TextWave />
                 <Rain />
                 <EmailValidation />
+                <EyesLooking />
             </section>
             
         </main>
