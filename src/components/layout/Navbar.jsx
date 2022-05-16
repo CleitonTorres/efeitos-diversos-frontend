@@ -12,7 +12,7 @@ function Navbar(){
         active === '' ? setActive('active') : setActive('')
     }
     return(
-        <header id='header' className={styles.header}>
+        <header id='header' className={`${styles.header}`}>
             <Link 
                 to="/"
                 className={styles.logo}
