@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/efeitos-diversos-frontend/static/css/main.8c243c61.css",
-    "main.js": "/efeitos-diversos-frontend/static/js/main.62efa924.js",
+    "main.css": "/efeitos-diversos-frontend/static/css/main.1aabba08.css",
+    "main.js": "/efeitos-diversos-frontend/static/js/main.a39d9291.js",
     "static/js/787.92ad1e64.chunk.js": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js",
     "static/media/road.png": "/efeitos-diversos-frontend/static/media/road.60b9ca472b6788f180c5.png",
     "static/media/mountain.png": "/efeitos-diversos-frontend/static/media/mountain.0829473c494546eca2f7.png",
+    "static/media/HulkBaladeiro.gif": "/efeitos-diversos-frontend/static/media/HulkBaladeiro.297450b7e4f83df09c4a.gif",
     "static/media/bg.jpg": "/efeitos-diversos-frontend/static/media/bg.d3cadcf326191a5d274e.jpg",
     "static/media/castle.png": "/efeitos-diversos-frontend/static/media/castle.1764b840942d5a821b27.png",
     "static/media/lamp.png": "/efeitos-diversos-frontend/static/media/lamp.3cd8595da1d70411d41d.png",
@@ -17,12 +18,12 @@
     "static/media/menuToggleClose.png": "/efeitos-diversos-frontend/static/media/menuToggleClose.e8984e6bf8a1068734d7.png",
     "static/media/menuToggle.jpg": "/efeitos-diversos-frontend/static/media/menuToggle.198575def06ecc6ff660.jpg",
     "index.html": "/efeitos-diversos-frontend/index.html",
-    "main.8c243c61.css.map": "/efeitos-diversos-frontend/static/css/main.8c243c61.css.map",
-    "main.62efa924.js.map": "/efeitos-diversos-frontend/static/js/main.62efa924.js.map",
+    "main.1aabba08.css.map": "/efeitos-diversos-frontend/static/css/main.1aabba08.css.map",
+    "main.a39d9291.js.map": "/efeitos-diversos-frontend/static/js/main.a39d9291.js.map",
     "787.92ad1e64.chunk.js.map": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c243c61.css",
-    "static/js/main.62efa924.js"
+    "static/css/main.1aabba08.css",
+    "static/js/main.a39d9291.js"
   ]
 }
