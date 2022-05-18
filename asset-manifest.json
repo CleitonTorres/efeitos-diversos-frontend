@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/efeitos-diversos-frontend/static/css/main.23f40b16.css",
-    "main.js": "/efeitos-diversos-frontend/static/js/main.a4a4ee87.js",
+    "main.css": "/efeitos-diversos-frontend/static/css/main.bbfe4736.css",
+    "main.js": "/efeitos-diversos-frontend/static/js/main.0f6bc476.js",
     "static/js/787.92ad1e64.chunk.js": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js",
     "static/media/road.png": "/efeitos-diversos-frontend/static/media/road.60b9ca472b6788f180c5.png",
     "static/media/mountain.png": "/efeitos-diversos-frontend/static/media/mountain.0829473c494546eca2f7.png",
@@ -18,12 +18,12 @@
     "static/media/menuToggleClose.png": "/efeitos-diversos-frontend/static/media/menuToggleClose.e8984e6bf8a1068734d7.png",
     "static/media/menuToggle.jpg": "/efeitos-diversos-frontend/static/media/menuToggle.198575def06ecc6ff660.jpg",
     "index.html": "/efeitos-diversos-frontend/index.html",
-    "main.23f40b16.css.map": "/efeitos-diversos-frontend/static/css/main.23f40b16.css.map",
-    "main.a4a4ee87.js.map": "/efeitos-diversos-frontend/static/js/main.a4a4ee87.js.map",
+    "main.bbfe4736.css.map": "/efeitos-diversos-frontend/static/css/main.bbfe4736.css.map",
+    "main.0f6bc476.js.map": "/efeitos-diversos-frontend/static/js/main.0f6bc476.js.map",
     "787.92ad1e64.chunk.js.map": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f40b16.css",
-    "static/js/main.a4a4ee87.js"
+    "static/css/main.bbfe4736.css",
+    "static/js/main.0f6bc476.js"
   ]
 }
