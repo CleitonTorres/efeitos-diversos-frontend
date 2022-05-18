@@ -17,7 +17,7 @@ function ParallaxSite(){
         let value = window.scrollY;
 
         stars01.style.bottom = value * 0.05 + '%';
-        moon.style.bottom = value * -0.5 + 'px';
+        moon.style.top = (value * 0.5) + 600 + 'px';
         moon.style.left = value * -0.5 + 'px';
         castle.style.bottom = (value * 0.05) - 40 + 'px';
         text.style.right =  (value * 0.8) - 400 + 'px';
@@ -40,6 +40,7 @@ function ParallaxSite(){
                 <img 
                     src={moon} 
                     alt="" 
+                    className={styles.moon}
                     id="moon"
                 />
                 <h2 
