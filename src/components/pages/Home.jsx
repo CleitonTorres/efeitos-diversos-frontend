@@ -1,5 +1,6 @@
 import styles from '../CSS/Home.module.css';
 import fotoProfile from '../imgs/perfil/foto2.jpg';
+import Dice3D from '../layout/Dice3D';
 import EmailValidation from '../layout/EmailValidation';
 import EyesLooking from '../layout/EyesLooking';
 import Menu3D from '../layout/Menu3D';
@@ -31,6 +32,7 @@ function Home(){
                 <EyesLooking />
                 <RainColors />
                 <Menu3D />
+                <Dice3D />
             </section>
             
         </main>

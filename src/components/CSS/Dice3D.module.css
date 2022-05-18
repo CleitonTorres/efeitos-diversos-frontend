@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body_dice3d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.body_dice3d .container {
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    gap: 10px;
+    transform: rotateY(30deg) rotateX(10deg);
+}
+.body_dice3d .container .text {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transition: 2.5s ease-in-out;
+    transition-delay: calc(0.25s * var(--j));
+}
+.body_dice3d .container .text::before {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #373737;
+    transform-origin: left;
+    transform: rotateY(90deg) translateX(-50px);
+}
+.body_dice3d .container .text:first-child::before {
+    background-color: #0022ff;
+}
+.body_dice3d .container .text:nth-child(2)::before {
+    background-color: #fd00e3;
+}
+.body_dice3d .container .text:nth-child(3)::before {
+    background-color: #29c040;
+}
+.body_dice3d .container .text:last-child::before {
+    background-color: #fc0606;
+}
+
+.body_dice3d:hover .container .text {
+    transform: rotateX(var(--r));
+}
+.body_dice3d .container .text span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 500;
+    transform-style: preserve-3d;
+    transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
+}
+.body_dice3d .container .text:first-child span {
+    background-image: linear-gradient(#0022ff, #110999);
+    color: #000;
+} 
+.body_dice3d .container .text:nth-child(2) span {
+    background-image: linear-gradient(#fd00e3, #b205a1);
+    color: #000;
+}
+.body_dice3d .container .text:nth-child(3) span {
+    background-image: linear-gradient(#29c040, #08951d);
+    color: #000;
+} 
+.body_dice3d .container .text:last-child span {
+    background-image: linear-gradient(#fc0606, #850505);
+    color: #000;
+} 
+
+@media (max-width:600px) {
+    .body_dice3d{
+        width: 400px;
+        height: 700px;
+    }
+    .body_dice3d .container {
+        flex-direction: column;
+    }
+    .body_dice3d .container .text {
+        margin-bottom: 40px;
+    }
+}
