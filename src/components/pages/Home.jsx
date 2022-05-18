@@ -2,6 +2,7 @@ import styles from '../CSS/Home.module.css';
 import fotoProfile from '../imgs/perfil/foto2.jpg';
 import EmailValidation from '../layout/EmailValidation';
 import EyesLooking from '../layout/EyesLooking';
+import Menu3D from '../layout/Menu3D';
 import Rain from '../layout/Rain';
 import RainColors from '../layout/RainColors';
 import TextWave from '../layout/TextWave';
@@ -29,6 +30,7 @@ function Home(){
                 <EmailValidation />
                 <EyesLooking />
                 <RainColors />
+                <Menu3D />
             </section>
             
         </main>
