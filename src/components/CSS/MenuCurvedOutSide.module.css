@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_menuCurvedOutside {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+.body_menuCurvedOutside .container {
+    /*fixed é a melhor opção */
+    position: relative;
+    left: 100px;
+    transform: translate(-200%, 0%);
+    width: 70px;
+    height: 500px;
+    transform-origin: right;
+    box-sizing: initial;
+    border-radius: 10px;
+    border-left: 5px solid #4d5bf9;
+    background-color: #4d5bf9;
+    transition: 0.7s;
+    overflow-x: hidden;
+}
+.body_menuCurvedOutside .container.active {
+    width: 300px;
+    transform: translate(-40%, 0%);
+}
+.body_menuCurvedOutside .container ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.body_menuCurvedOutside .container ul .list {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.body_menuCurvedOutside .container ul .list.active {
+    background-color: #fff;
+}
+.body_menuCurvedOutside .container ul li b:nth-child(1) {
+    position: absolute;
+    top: -20px;
+    height: 20px;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+.body_menuCurvedOutside .container ul li b:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    background-color: #4d5bf9;
+}
+.body_menuCurvedOutside .container ul li b:nth-child(2) {
+    position: absolute;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+.body_menuCurvedOutside .container ul li b:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    background-color: #4d5bf9;
+}
+.body_menuCurvedOutside .container ul .list.active b:nth-child(1),
+.body_menuCurvedOutside .container ul .list.active b:nth-child(2) {
+    display: block;
+}
+.body_menuCurvedOutside .container ul .list a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    color: #fff;
+}
+.body_menuCurvedOutside .container ul .list.active a {
+    color: #333;
+}
+.body_menuCurvedOutside .container ul .list a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+.body_menuCurvedOutside .container ul .list a .icon svg {
+    font-size: 1.5em;
+}
+.body_menuCurvedOutside .container ul .list a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+}
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4d5bf9;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.toggle.active {
+    background-color: #ff4d89;
+}
+.toggle svg {
+    position: absolute;
+    color: #fff;
+    font-size: 34px;
+    display: none;
+}
+.toggle.active svg.open,
+.toggle svg.close {
+    display: block;
+}
+.toggle svg.open,
+.toggle.active svg.close {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .body_menuCurvedOutside{
+        width: 400px;
+    }
+    .body_menuCurvedOutside .container {
+        left: 0;
+        transform: translate(-100%, 0%);
+    }
+    .body_menuCurvedOutside .container.active {
+        width: 300px;
+        left: 0;
+        transform: translate(-10%, 0%);
+    }
+}

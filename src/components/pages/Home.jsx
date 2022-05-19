@@ -4,6 +4,7 @@ import Dice3D from '../layout/Dice3D';
 import EmailValidation from '../layout/EmailValidation';
 import EyesLooking from '../layout/EyesLooking';
 import Menu3D from '../layout/Menu3D';
+import MenuCurvedOutSide from '../layout/MenuCurvedOutSide';
 import Rain from '../layout/Rain';
 import RainColors from '../layout/RainColors';
 import TextWave from '../layout/TextWave';
@@ -33,6 +34,7 @@ function Home(){
                 <RainColors />
                 <Menu3D />
                 <Dice3D />
+                <MenuCurvedOutSide />
             </section>
             
         </main>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@
     background-color: #33a3ee;
     transform: translateX(-50px);
 }
-.body_menu3d .container ul li a {
+.body_menu3d .container ul li span {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #999;
@@ -83,7 +83,7 @@
     letter-spacing: 0.05em;
     transition: 0.5s;
 }
-.body_menu3d .container ul li:hover a {
+.body_menu3d .container ul li:hover span {
       color: #fff;
 }
 

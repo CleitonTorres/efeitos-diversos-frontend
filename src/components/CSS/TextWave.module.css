@@ -12,7 +12,7 @@
     height: 300px;
     width: 600px;
     background-color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .wave {
     position: relative;
@@ -35,7 +35,7 @@
 .waveFlip span {
     background-image: linear-gradient(#00000000, #ffffff7c);
     background-clip: text;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     line-height: 1.1;
     color: transparent;
 }
