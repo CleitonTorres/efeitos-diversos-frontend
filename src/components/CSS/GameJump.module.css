@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game_board{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 600px;
+    width: 600px;
+    background-color: #000;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: solid 2px #000;
+    border-bottom: solid 10px rgb(12, 108, 12);
+    background-image: linear-gradient(rgb(0, 149, 255), rgb(26, 26, 198));
+}
+.game_board .launcher {
+    position: relative;
+    min-height: 600px;
+    width: 600px;
+}
+.game_board .launcher .pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+}
+.game_board .launcher .pipe.running{
+    animation: pipeMov 3s linear infinite;
+}
+.game_board .launcher .pipe.paused {
+    animation-play-state: paused;
+}
+.game_board .launcher .mario {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    width: 100px;
+    transition: 0.5s;
+}
+.game_board .launcher .init{
+    animation: marioInit 1s ease-out 1;
+}
+.game_board .launcher .mario.running.jump {
+    animation: marioJump 800ms ease-out;
+}
+.game_board .launcher .mario.paused {
+    animation-play-state: paused;
+    transition: ease-in 1.5s;
+    transform: translateY(200px);
+}
+.clouds{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 70%;
+    animation: clouds 5s linear infinite;
+}
+.clouds.paused{
+    animation-play-state: paused;
+}
+
+@keyframes pipeMov {
+    0%{
+        right: -80px;
+    }
+    100% {
+        right: 100%;
+    }
+}
+@keyframes clouds {
+    0%{
+        left: 500px;
+    }
+    100% {
+        left: -400px;
+    }
+}
+@keyframes marioInit {
+    0%{
+        left: -80px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+@keyframes marioJump {
+    0%, 100% {
+        bottom: 0;
+    }
+    30%, 90%{
+        bottom: 150px;
+    }
+}

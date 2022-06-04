@@ -3,6 +3,7 @@ import fotoProfile from '../imgs/perfil/foto2.jpg';
 import Dice3D from '../layout/Dice3D';
 import EmailValidation from '../layout/EmailValidation';
 import EyesLooking from '../layout/EyesLooking';
+import GameJump from '../layout/GameJump';
 import Menu3D from '../layout/Menu3D';
 import MenuCurvedOutSide from '../layout/MenuCurvedOutSide';
 import Rain from '../layout/Rain';
@@ -32,6 +33,7 @@ function Home(){
                 <EmailValidation />
                 <EyesLooking />
                 <RainColors />
+                <GameJump />
                 <Menu3D />
                 <Dice3D />
                 <MenuCurvedOutSide />
