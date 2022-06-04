@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/efeitos-diversos-frontend/static/css/main.4b4ed334.css",
-    "main.js": "/efeitos-diversos-frontend/static/js/main.821d8adb.js",
+    "main.css": "/efeitos-diversos-frontend/static/css/main.e19c0104.css",
+    "main.js": "/efeitos-diversos-frontend/static/js/main.381321be.js",
     "static/js/787.92ad1e64.chunk.js": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js",
     "static/media/road.png": "/efeitos-diversos-frontend/static/media/road.60b9ca472b6788f180c5.png",
     "static/media/mountain.png": "/efeitos-diversos-frontend/static/media/mountain.0829473c494546eca2f7.png",
@@ -10,20 +10,23 @@
     "static/media/castle.png": "/efeitos-diversos-frontend/static/media/castle.1764b840942d5a821b27.png",
     "static/media/lamp.png": "/efeitos-diversos-frontend/static/media/lamp.3cd8595da1d70411d41d.png",
     "static/media/moon.png": "/efeitos-diversos-frontend/static/media/moon.22aa4ef00663e15041ec.png",
+    "static/media/clouds.png": "/efeitos-diversos-frontend/static/media/clouds.75dca5d17ef0cc0eb68a.png",
     "static/media/stars1.png": "/efeitos-diversos-frontend/static/media/stars1.c434706d81924b623595.png",
     "static/media/stars2.png": "/efeitos-diversos-frontend/static/media/stars2.4fb24d2f3c97e5ed79f2.png",
     "static/media/frontground.png": "/efeitos-diversos-frontend/static/media/frontground.1f4ee9180a3d0257444a.png",
     "static/media/lua.png": "/efeitos-diversos-frontend/static/media/lua.847abab3206b0bf81839.png",
+    "static/media/game-over.png": "/efeitos-diversos-frontend/static/media/game-over.6efac362152ef17a7790.png",
+    "static/media/mario.gif": "/efeitos-diversos-frontend/static/media/mario.b481b80877cb6f0c66ad.gif",
     "static/media/foto2.jpg": "/efeitos-diversos-frontend/static/media/foto2.3d5dbd5cede669959bc6.jpg",
     "static/media/menuToggleClose.png": "/efeitos-diversos-frontend/static/media/menuToggleClose.e8984e6bf8a1068734d7.png",
     "static/media/menuToggle.jpg": "/efeitos-diversos-frontend/static/media/menuToggle.198575def06ecc6ff660.jpg",
     "index.html": "/efeitos-diversos-frontend/index.html",
-    "main.4b4ed334.css.map": "/efeitos-diversos-frontend/static/css/main.4b4ed334.css.map",
-    "main.821d8adb.js.map": "/efeitos-diversos-frontend/static/js/main.821d8adb.js.map",
+    "main.e19c0104.css.map": "/efeitos-diversos-frontend/static/css/main.e19c0104.css.map",
+    "main.381321be.js.map": "/efeitos-diversos-frontend/static/js/main.381321be.js.map",
     "787.92ad1e64.chunk.js.map": "/efeitos-diversos-frontend/static/js/787.92ad1e64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b4ed334.css",
-    "static/js/main.821d8adb.js"
+    "static/css/main.e19c0104.css",
+    "static/js/main.381321be.js"
   ]
 }
